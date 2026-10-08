@@ -1,0 +1,58 @@
+name: 🐜 Bug report
+description: If something isn't working 🔧
+title: "[Bug]: "
+type: Bug
+projects: ["canarylang/1"]
+assignees:
+  - FilaCo
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    attributes:
+      label: What is the expected behavior?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What is the actual behavior?
+      description: What the compiler said, verbatim, or what the program did.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to reproduce the issue?
+      description: The smallest Canary program that shows it, and the command you ran.
+      render: text
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Canary version
+      description: "`cyc --version`, or the commit you built."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Operating system
+      placeholder: "macOS 26 arm64, Ubuntu 24.04 x64, Windows 11 x64"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Any possible solutions?
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: If the bug is confirmed, would you be willing to submit a PR?
+      description: |
+        Help can be provided if you need assistance submitting a PR
+      options:
+        - 'Yes'
+        - 'No'
+      default: 1
+    validations:
+      required: true

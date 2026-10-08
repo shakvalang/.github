@@ -1,0 +1,65 @@
+# The labels of every canarylang repository, synced by scripts/sync_labels.py (CONTRIBUTING.md). A
+# label named here is created or updated, one of its `aliases` renamed to it (its issues keep it), one
+# marked `removed` deleted; a label named nowhere is left alone.
+
+# What kind of issue is its type (Bug, Feature, Task), the organization's, not a label.
+# question: an open design question (canary's docs/README.md), whatever its type
+- name: question
+  color: d876e3
+  description: An open question, knowingly left undone; an ADR, a rule or a spec section that closes it names it
+
+# E-: what it takes
+- name: E-easy
+  color: 7057ff
+  description: A good first issue
+  aliases: [good first issue]
+- name: E-hard
+  color: 3e2c70
+  description: Needs a design, or deep knowledge of the code
+- name: E-help-wanted
+  color: 008672
+  description: Help is welcome
+  aliases: [help wanted]
+
+# A-: which part
+- name: A-spec
+  color: f9d0c4
+  description: The book and the language reference
+- name: A-syntax
+  color: f9d0c4
+  description: The lexer, the parser, the syntax tree
+- name: A-diagnostics
+  color: f9d0c4
+  description: What the compiler says, and how
+- name: A-analysis
+  color: f9d0c4
+  description: Names, types, checks
+- name: A-vm
+  color: f9d0c4
+  description: Bytecode, the runtime, the GC, the scheduler
+- name: A-stdlib
+  color: f9d0c4
+  description: The standard library
+- name: A-flock
+  color: f9d0c4
+  description: The package manager and build tool
+- name: A-performance
+  color: f9d0c4
+  description: Speed and memory
+- name: A-infra
+  color: f9d0c4
+  description: Builds, CI, releases, the toolchain
+
+# GitHub's own that stay
+- name: duplicate
+  color: cfd3d7
+  description: This issue or pull request already exists
+- name: invalid
+  color: e4e669
+  description: This doesn't seem right
+- name: wontfix
+  color: ffffff
+  description: This will not be worked on
+- name: dependencies
+  color: 0366d6
+  description: A dependency or a pin moved, by Dependabot
