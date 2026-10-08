@@ -1,9 +1,9 @@
-# The labels of every canarylang repository, synced by scripts/sync_labels.py (CONTRIBUTING.md). A
+# The labels of every shakvalang repository, synced by scripts/sync_labels.py (CONTRIBUTING.md). A
 # label named here is created or updated, one of its `aliases` renamed to it (its issues keep it), one
 # marked `removed` deleted; a label named nowhere is left alone.
 
 # What kind of issue is its type (Bug, Feature, Task), the organization's, not a label.
-# question: an open design question (canary's docs/README.md), whatever its type
+# question: an open design question (shakva's docs/README.md), whatever its type
 - name: question
   color: d876e3
   description: An open question, knowingly left undone; an ADR, a rule or a spec section that closes it names it

@@ -15,7 +15,7 @@ import json
 import subprocess
 import sys
 
-ORG = "canarylang"
+ORG = "shakvalang"
 PROJECT = 1
 
 

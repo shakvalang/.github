@@ -2,7 +2,7 @@ name: ❓ Open question
 description: Something knowingly left undone, and the way to do it is open 🤔
 title: "[Question]: "
 labels: ["question"]
-projects: ["canarylang/1"]
+projects: ["shakvalang/1"]
 assignees:
   - FilaCo
 body:

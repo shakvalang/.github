@@ -21,7 +21,7 @@ import urllib.parse
 
 import yaml
 
-ORG = "canarylang"
+ORG = "shakvalang"
 
 
 def gh(*args: str, body: dict | None = None) -> object:

@@ -1,6 +1,6 @@
-# Contributing to canarylang
+# Contributing to shakvalang
 
-canarylang is the Canary programming language: [canary](https://github.com/canarylang/canary) holds
+shakvalang is the Shakva programming language: [shakva](https://github.com/shakvalang/shakva) holds
 the compiler (`cyc`), the package manager (`flock`), the language book and the spec. How to build and
 test it: its `CLAUDE.md`; what its docs are and when a change writes there: its `docs/README.md`.
 
@@ -14,7 +14,7 @@ knowingly left open is an issue labeled `question`.
 
 ## Issues and labels
 
-Every open issue of the organization is on [one board](https://github.com/orgs/canarylang/projects/1)
+Every open issue of the organization is on [one board](https://github.com/orgs/shakvalang/projects/1)
 (`.github/workflows/project.yml` adds those an issue form did not), and its priority is the board's
 **Priority**, not a label, as where it stands is its **Status** (Backlog, Ready, In progress,
 Blocked — on another issue, upstream, or whoever opened it —, In review, Done):

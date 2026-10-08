@@ -2,7 +2,7 @@ name: 🐜 Bug report
 description: If something isn't working 🔧
 title: "[Bug]: "
 type: Bug
-projects: ["canarylang/1"]
+projects: ["shakvalang/1"]
 assignees:
   - FilaCo
 body:
@@ -24,13 +24,13 @@ body:
   - type: textarea
     attributes:
       label: How to reproduce the issue?
-      description: The smallest Canary program that shows it, and the command you ran.
+      description: The smallest Shakva program that shows it, and the command you ran.
       render: text
     validations:
       required: true
   - type: input
     attributes:
-      label: Canary version
+      label: Shakva version
       description: "`cyc --version`, or the commit you built."
     validations:
       required: true

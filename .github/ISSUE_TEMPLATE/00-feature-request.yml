@@ -2,7 +2,7 @@ name: 🚀 Feature Request
 description: If you have a feature request 💡
 title: "[Feature]: "
 type: Feature
-projects: ["canarylang/1"]
+projects: ["shakvalang/1"]
 assignees:
   - FilaCo
 body:
@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this feature request! Check it against
-        [the zen](https://github.com/canarylang/canary/blob/master/docs/src/zen.md) first.
+        [the zen](https://github.com/shakvalang/shakva/blob/master/docs/src/zen.md) first.
   - type: textarea
     attributes:
       label: Context
